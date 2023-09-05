@@ -1,0 +1,26 @@
+创建3台虚拟机：CentOS-7-x86_64-DVD-1908
+Control | Subordinate_1 | Subordinate_2
+均已使用sudo yum update更新了软件包
+均已安装VirtualBox vBox增强工具
+均已配置ssh连接环境
+
+IP地址：
+192.168.43.45 | 192.168.43.68 | 192.168.43.67 
+Control | Subordinate_1 | Subordinate_2
+
+192.168.43.45 Control
+192.168.43.68 Subordinate_1
+192.168.43.67 Subordinate_2
+
+
+hostname：
+修改后的Hostname：Control | Subordinate_1 | Subordinate_2
+Control | Subordinate_1 | Subordinate_2
+
+虚拟机安装的JAVA环境：
+jdk1.8.0_241 | jdk1.8.0_241 | jdk1.8.0_241 
+Control | Subordinate_1 | Subordinate_2
+
+hadoop版本：
+hadoop-2.6.5 | hadoop-2.6.5 | hadoop-2.6.5
+Control | Subordinate_1 | Subordinate_2
